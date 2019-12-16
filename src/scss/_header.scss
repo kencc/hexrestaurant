@@ -1,0 +1,18 @@
+.banner{
+  background-image: url(/images/header_desktop.png);
+  height: 420px;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-header-title{
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0,0,0,.35);
+  padding: 26px;
+  margin: 13px;
+}

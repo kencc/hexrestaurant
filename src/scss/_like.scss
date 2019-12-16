@@ -1,0 +1,22 @@
+.like-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 99;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.like-button-body {
+  cursor: pointer;
+  .ui-checked, .ui-checkbox {
+    display: none;
+  }
+  .ui-checkbox:checked {
+    & ~ .ui-checked {
+      display: block;
+    }
+    & ~ .ui-unchecked {
+      display: none;
+    }
+  }
+}

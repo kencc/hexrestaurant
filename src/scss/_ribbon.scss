@@ -1,0 +1,46 @@
+.ribbon-wrapper{
+  width: 108px;
+  height: 108px;
+  overflow: hidden;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+.ribbon{
+  font-weight: 900;
+  line-height: 18px;
+  text-align: center;
+  transform: rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -4px;
+  top: 26px;
+  width: 150px;
+  background-color: $ribbon-primary;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
+  box-shadow: -3px 5px 6px -5px rgba(0, 0, 0, 0.5);
+}
+.ribbon:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: -1;
+  border-left: 4px solid $ribbon-fold-primary;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid $ribbon-fold-primary;
+}
+.ribbon:after {
+  content: "";
+  position: absolute;
+  right: 7px;
+  top: 100%;
+  z-index: -1;
+  border-left: 4px solid transparent;
+  border-right: 4px solid $ribbon-fold-primary;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid $ribbon-fold-primary;
+}

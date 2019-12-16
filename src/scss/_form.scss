@@ -1,0 +1,116 @@
+label {
+  display: inline-block;
+  line-height: 20px;
+  color: $primary;
+  margin-bottom: 0.5rem;
+}
+.form {
+  width: 50%;
+  @include pad {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  border-radius: 0.25rem;
+  line-height: 1.5rem;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: $primary;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  outline: none; // 取消高亮
+}
+
+.form-register {
+  color: $primary;
+  width: 620px;
+  border-top: 3px solid #ff5e45;
+  margin-top: 35px;
+  box-shadow: 3px 3px 3px #cccccc;
+  padding: 15px;
+  @include pad {
+    width: 100%;
+  }
+  h4 {
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 15px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  p {
+    margin-top: 10px;
+    padding-right: 15px;
+  }
+}
+.col-6 {
+  width: 50%;
+  @include pad {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.form-login {
+  width: 300px;
+  border-top: 3px solid #ff5e45;
+  margin-top: 35px;
+  box-shadow: 3px 3px 3px #cccccc;
+  padding: 15px;
+  h4 {
+    text-align: center;
+    font-weight: 900;
+    color: $primary;
+    margin-bottom: 15px;
+  }
+}
+.login-sub-title {
+  font-size: 20px;
+  margin-top: 5px;
+  color: $primary;
+}
+.forget-password {
+  text-decoration: none;
+  color: #ec6b33;
+  font-weight: 300;
+  font-size: 14px;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: .375rem .75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(61,17,0,0.50);
+  height: calc(1.5em + .75rem + 2px);
+  text-align: center;
+  white-space: nowrap;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-right: transparent;
+  border-radius: 3px 0 0 3px;
+}
+.input-group-behind {
+  border-left: transparent;
+  border-radius: 0 3px 3px 0;
+  padding-left: 0;
+}

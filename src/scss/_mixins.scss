@@ -1,0 +1,18 @@
+// breakpoint - mobile
+@mixin mobile{
+  @media (max-width:568px){
+    @content;
+  }
+} 
+// breakpoint - pad
+@mixin pad{
+  @media (max-width:768px){
+    @content;
+  }
+}
+// breakpoint - desktop
+@mixin desktop{
+  @media (max-width:960px){
+    @content;
+  }
+}

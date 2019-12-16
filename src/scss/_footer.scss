@@ -1,0 +1,48 @@
+footer {
+  display: flex;
+}
+.about {
+  margin-right: 30px;
+  width: 30%;
+  @include pad {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+  h2 {
+    margin-bottom: 1rem;
+    color: $primary;
+  }
+  p {
+    color: $primary;
+    line-height: 1.5rem;
+    font-weight: 300;
+  }
+}
+.contact {
+  margin-right: auto;
+  width: 30%;
+  @include pad {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+  h2 {
+    margin-bottom: 1rem;
+    color: $primary;
+  }
+  ul {
+    list-style: disc;
+    list-style-position: inside;
+    color: $primary;
+    font-weight: 300;
+    line-height: 1.5rem;
+  }
+}
+.info {
+  width: 30%;
+  @include pad {
+    width: 100%;
+    padding: 0 15px;
+  }
+}

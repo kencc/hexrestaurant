@@ -1,0 +1,31 @@
+* {
+	font-family: MicrosoftJhengHeiRegular;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1 {
+  font-size: 2.25rem; //36px
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 1.5rem;  //24px
+}
+h3 {
+  font-size: 1.25rem; //20px
+}
+h4 {
+  font-size: 1.125rem; //18px
+}
+small{
+  margin-bottom: 0.5rem;
+}
+h1, h2, h3, h4, h5, h6, small, p {
+  font-weight: 300;
+  line-height: 1.5;
+}

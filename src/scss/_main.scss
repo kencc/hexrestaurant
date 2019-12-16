@@ -1,0 +1,107 @@
+.section {
+  padding: 50px 0;
+}
+.secret-title{
+  font-size: 20px;
+  color: #3D1101;
+  line-height: 2rem;
+  text-align: center;
+  padding: 0 1rem;
+  position: relative;
+  margin-bottom: 2rem;
+  &:before {
+    content:"";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    background-color: #3D1101;
+    height: 1px;
+    width: 130px;
+    margin-right: 1rem;
+    @include mobile {
+      display: none;
+    }
+  }
+  &:after {
+    content:"";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    background-color: #3D1101;
+    height: 1px;
+    width: 130px;
+    margin-left: 1rem;
+    @include mobile {
+      display: none;
+    }
+  }
+}
+.chef-name {
+  font-size: 20px;
+  line-height: 32px;
+}
+.chef-img {
+  max-width: 50%;
+  @include mobile {
+    max-width: 100%;
+  }
+}
+.chef-info {
+  color: $secondary;
+  padding: 0 25px;
+  @include mobile {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+.chef-intro {
+  max-width: 100%;
+}
+.feedback-title{
+  line-height: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+  color: $primary;
+}
+.feedback-group{
+  display: flex;
+  color: $primary;
+  margin: 0 -10px;
+  @include pad {
+    display: block;
+    margin: 0;
+  }
+}
+.feedback {
+  display: flex;
+  padding: 0 10px;
+  @include mobile {
+    padding: 0 20px;
+  }
+}
+.feedback-name {
+  margin: 21px 0 22px 0;
+}
+.feedback-avatar {
+  border-radius: 50%;
+  margin-right: 13px;
+  width: 67px;
+  height: 67px;
+}
+.feedback-job{
+  text-align: right;
+}
+.location-info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.map {
+  width: 50%;
+  padding-right: 30px;
+  @include pad {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px;
+  }
+}
