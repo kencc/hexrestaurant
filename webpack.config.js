@@ -56,10 +56,11 @@ module.exports = {
           {
             loader: 'url-loader',
             options: {
+              limit: 1000, //bytes
               name: '[name].[ext]',
-              publicPath: 'images/',
+              publicPath: '../images/',
               emitFile: false
-            }  
+            }
           }
         ]
       },
@@ -83,7 +84,7 @@ module.exports = {
           },
           'sass-loader'],
       },
-
+      
       // 新增 expose 的設定，將 jQuery 加入全域
       {
         test: require.resolve('jquery'),
