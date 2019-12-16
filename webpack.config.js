@@ -57,7 +57,7 @@ module.exports = {
             loader: 'url-loader',
             options: {
               name: '[name].[ext]',
-              publicPath: '../../src/img/',
+              publicPath: 'images/',
               emitFile: false
             }  
           }
