@@ -3,11 +3,12 @@
   top: 1rem;
   left: 1rem;
   z-index: 99;
-  color: #ffffff;
+  color: #fff;
   font-size: 1.5rem;
 }
 .like-button-body {
   cursor: pointer;
+  color: #fff;
   .ui-checked, .ui-checkbox {
     display: none;
   }
